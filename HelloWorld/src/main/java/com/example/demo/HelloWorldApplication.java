@@ -7,11 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.micrometer.core.ipc.http.HttpSender.Response;
 
-
+@SpringBootApplication
 public class HelloWorldApplication {
 
-	//public String HelloWorld() {
-	public static void main(String[] args) {	
+	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
